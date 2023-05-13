@@ -18,7 +18,7 @@ class HBNBCommand(cmd.Cmd):
 
     prompt = "(hbnb) "
     l_classes = ['BaseModel', 'User', 'Amenity',
-                 'Place', 'City', 'State', 'Review']
+            'Place', 'City', 'State', 'Review']
 
     l_c = ['create', 'show', 'update', 'all', 'destroy', 'count']
 
@@ -59,8 +59,8 @@ class HBNBCommand(cmd.Cmd):
             print("** class doesn't exist **")
         else:
             dct = {'BaseModel': BaseModel, 'User': User, 'Place': Place,
-                   'City': City, 'Amenity': Amenity, 'State': State,
-                   'Review': Review}
+                    'City': City, 'Amenity': Amenity, 'State': State,
+                    'Review': Review}
             my_model = dct[type_model]()
             print(my_model.id)
             my_model.save()
