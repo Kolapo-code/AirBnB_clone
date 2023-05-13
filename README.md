@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/python3
 "Background Context
 Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
