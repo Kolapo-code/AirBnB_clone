@@ -1,5 +1,5 @@
-
-Background Context
+#!/bin/bash
+"Background Context
 Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
 
@@ -122,4 +122,4 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb) 
 $
-All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash
+All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash"
